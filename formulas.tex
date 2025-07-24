@@ -1,0 +1,55 @@
+% Include the preamble
+\input{preamble.tex}
+
+\begin{document}
+
+\makeatletter
+\begin{center}
+    {\huge{\textbf{\@title}}}\\[2ex]
+\end{center}
+\makeatother
+
+\begin{multicols*}{2}
+\raggedcolumns
+
+% Include all sections
+\input{sections/statistical-mechanics.tex}
+
+\pagebreak
+\input{sections/free-energies.tex}
+
+\input{sections/ideal-gas.tex}
+
+\vfill\null
+\columnbreak
+\input{sections/thermodynamic-quantities.tex}
+
+\vfill\null
+\columnbreak
+\input{sections/partition-function.tex}
+
+\vfill\null
+\columnbreak
+\input{sections/response-functions.tex}
+
+\input{sections/black-body-radiation.tex}
+
+\vfill\null
+\columnbreak
+\input{sections/grand-canonical.tex}
+
+\vfill\null
+\columnbreak
+\input{sections/fermions.tex}
+
+\input{sections/bosons.tex}
+
+\vfill\null
+\columnbreak
+\input{sections/reversible-processes.tex}
+
+% ---------------------------
+\input{sections/mathematics.tex}
+
+\end{multicols*}
+\end{document}

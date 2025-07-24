@@ -1,0 +1,40 @@
+\section{גדלים תרמודינמניים והתמרת לז'נדר}
+
+\begin{cheatformula}[לחץ]
+$$P \;=\; T \,\Bigl(\frac{\partial S}{\partial V}\Bigr)_{E,N} \;=\; -\,\Bigl(\frac{\partial E}{\partial V}\Bigr)_{S,N}$$
+\end{cheatformula}
+
+\begin{cheatformula}[פוטנציאל כימי]
+$$\mu \;=\; -\,T \,\Bigl(\frac{\partial S}{\partial N}\Bigr)_{E,V} \;=\; \Bigl(\frac{\partial E}{\partial N}\Bigr)_{S,V}$$
+\end{cheatformula}
+
+\begin{cheatformula}[התמרת לז'נדר]\\
+ במשתנה יחיד$Y(X) \to \psi(P)$
+\begin{enumerate}
+    \item נוודא ש- $Y(X)$ קעורה ממש או קמורה ממש בקטע
+    \item נגזור $P(X) = \frac{dY}{dX}$
+    \item נהפוך את הקשר ונקבל $X(P)$
+    \item נציב את הקשר ההפוך בביטוי $\psi(P) = Y(X(P)) - PX(P)$
+\end{enumerate}
+
+ב- $n$ משתנים $Y(\vec{X}) \to \psi(\vec{P})$
+\begin{enumerate}
+    \item נוודא שהפונקציה $Y(\vec{X})$ קמורה ממש או קעורה ממש בתחום בו מתבצעת הטרנספורמציה.
+    \item נגזור: עבור כל משתנה $X_i$, נגדיר את $P_i = \frac{\partial Y}{\partial X_i}$.
+    \item נהפוך את מערכת הקשרים ונקבל את $\vec{X}(\vec{P})$ — כלומר, מבטאים את כל $X_i$ כפונקציה של המשתנים $P_i$.
+    \item נגדיר את הפונקציה החדשה: \[
+        \psi(\vec{P}) = \left[\sum_{i=1}^n P_i X_i(\vec{P})\right] - Y\big(\vec{X}(\vec{P})\big)
+    \]
+\end{enumerate}
+
+\end{cheatformula}
+
+\begin{cheatformula}[יחסי מקסוול]\\
+\begin{align*}
+    \Bigl(\tfrac{\partial T}{\partial V}\Bigr)_{S,N} &= - \Bigl(\tfrac{\partial P}{\partial S}\Bigr)_{V,N} &= \Bigl(\tfrac{\partial^2 E}{\partial S \partial V}\Bigr) \\ 
+    \Bigl(\tfrac{\partial P}{\partial T}\Bigr)_{V,N} &= \Bigl(\tfrac{\partial S}{\partial V}\Bigr)_{T,N} &= - \Bigl(\tfrac{\partial^2 F}{\partial T \partial V}\Bigr) \\ 
+    \Bigl(\tfrac{\partial T}{\partial P}\Bigr)_{S,N} &= \Bigl(\tfrac{\partial V}{\partial S}\Bigr)_{P,N} &=  \Bigl(\tfrac{\partial^2 H}{\partial S \partial P}\Bigr)\\
+    \Bigl(\tfrac{\partial S}{\partial P}\Bigr)_{T,N} &= - \Bigl(\tfrac{\partial V}{\partial T}\Bigr)_{P,N} &= \Bigl(\tfrac{\partial^2 G}{\partial T \partial P}\Bigr)\\
+    \Bigl(\tfrac{\partial \mu}{\partial P}\Bigr)_{S,N} &=  \Bigl(\tfrac{\partial V}{\partial N}\Bigr)_{S,P} &= \Bigl(\tfrac{\partial^2 H}{\partial P \partial N}\Bigr)
+\end{align*}   
+\end{cheatformula}

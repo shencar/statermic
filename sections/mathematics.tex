@@ -1,0 +1,103 @@
+\section{מתמטיקות}
+\begin{cheatformula}[נוסחת סטירלינג]\\
+    $$N! \;\approx\; \sqrt{2\pi\,N}\,\Bigl(\tfrac{N}{e}\Bigr)^{N}$$
+    $$\ln N! \;\approx\; N\,\ln N \;-\; N$$
+\end{cheatformula}
+
+% \begin{cheatformula}[אקספוננטים]
+%     $$ e^{a} = \lim_{n\to\infty} \left(1 + \tfrac{a}{n}\right)^{n} \quad e = \lim_{x \to 0} (1 + x)^{1/x}$$
+%     $$ e^{x} = \sum_{k=0}^{\infty} \frac{x^{k}}{k!}$$
+%     $$\frac{d}{dx}\bigl[f(x)\,\ln f(x)\bigr] \;=\; f'(x)\,\bigl[\ln f(x)\;+\;1\bigr]$$
+% \end{cheatformula}
+
+
+\begin{cheatformula}[טורי טיילור]
+\begin{align*}
+e^x &= \sum_{n=0}^{\infty} \frac{x^n}{n!} \\[6pt]
+\sin x &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} \\[6pt]
+\cos x &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} \\[6pt]
+\ln(1 + x) &= \sum_{n=1}^{\infty} (-1)^{n-1} \frac{x^n}{n}
+= x - \frac{x^2}{2} + \frac{x^3}{3} + \cdots
+\quad  |x| < 1 \\[6pt]
+\frac{1}{1 - x} &= \sum_{n=0}^{\infty} x^n 
+= 1 + x + x^2 + x^3 + \cdots
+\quad |x| < 1 \\[6pt]
+\arctan x &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{2n+1}
+= x - \frac{x^3}{3} + \frac{x^5}{5} + \cdots
+\quad |x| \le 1 \\[6pt]
+\sinh x &= \sum_{n=0}^{\infty} \frac{x^{2n+1}}{(2n+1)!}
+= x + \frac{x^3}{3!} + \frac{x^5}{5!} + \cdots \\[6pt]
+\cosh x &= \sum_{n=0}^{\infty} \frac{x^{2n}}{(2n)!}
+= 1 + \frac{x^2}{2!} + \frac{x^4}{4!} + \cdots
+\end{align*}
+
+\end{cheatformula}
+
+\begin{cheatformula}[קומבינטוריקה]
+    
+
+\begin{table}[H]
+  \centering
+  % Scale the table to the text width:
+  \resizebox{\linewidth}{!}{%
+    \begin{RTL}
+    \renewcommand\cellalign{cc}   % center‐center alignment for makecell
+    \setcellgapes{4pt}\makegapedcells
+    \begin{tabular}{|c|c|c|}
+      \hline
+      % Top‐left empty, then two horizontal headers:
+       & \makecell{\textbf{ללא חשיבות}\\\textbf{לסדר}} 
+         & \makecell{\textbf{עם חשיבות}\\\textbf{לסדר}} \\
+      \hline
+      % First row: "בלי חזרות"
+      \makecell{\textbf{בלי}\\\textbf{חזרות}} 
+        & $\displaystyle \binom{n}{k} = \frac{n!}{k!(n-k)!}$ 
+        & $\displaystyle P(n,k) = \frac{n!}{(n-k)!}$ \\
+      \hline
+      % Second row: "עם חזרות"
+      \makecell{\textbf{עם}\\\textbf{חזרות}} 
+        & $\displaystyle \binom{n+k-1}{k} = \frac{(n+k-1)!}{k!(n-1)!}$ 
+        & $\displaystyle n^k$ \\
+      \hline
+    \end{tabular}
+    \end{RTL}
+  }  
+\end{table}
+\end{cheatformula}
+
+\begin{cheatformula}[אינטרגרלים]
+\begin{align*}
+& \int x^n e^{ax} \, dx = \frac{x^n e^{ax}}{a} - \frac{n}{a} \int x^{n-1} e^{ax} \, dx \quad \text{(by parts)} \\[8pt]
+& \int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi} \\[8pt]
+& \int_{-\infty}^{\infty} e^{-a x^2} \, dx = \sqrt{\frac{\pi}{a}}, \quad a > 0 \\[8pt]
+& \int_{0}^{\infty} x^{n} e^{-a x} \, dx = \frac{\Gamma(n+1)}{a^{n+1}}, \quad a > 0,\; n > -1 \\[8pt]
+& \int_{-\infty}^{\infty} e^{-x^2/2} \, dx = \sqrt{2\pi} \quad \text{(normalization of standard normal)} \\[8pt]
+& \int_{-\infty}^{\infty} e^{-\frac{x^2}{2\sigma ^2}} \, dx = \sqrt{2\pi} \cdot \sigma \\[8pt]
+& \int_{-\infty}^{\infty} x^2 e^{-\frac{x^2}{2\sigma ^2}} \, dx = \sqrt{2\pi} \cdot \sigma ^3 \\[8pt]
+& \int e^{-x^2} x \, dx = -\frac{1}{2} e^{-x^2} + C \\[8pt]
+& \int_{0}^{\infty} e^{-x} \, dx = 1 \\[8pt]
+& \int e^{i k x} \, dx = \frac{e^{i k x}}{i k} + C, \quad k \neq 0 \quad \text{(complex exponential)} \\[8pt]
+& \int_{-\infty}^{\infty} e^{-x^2} e^{i k x} \, dx = \sqrt{\pi} \, e^{-k^2/4} \quad \text{(Fourier of Gaussian)} \\[8pt]
+& \int_0^L \sin\left( \frac{\pi n_1 x}{L} \right) \sin\left( \frac{\pi n_2 x}{L} \right) \, dx = \frac{L}{2} \, \delta_{n_1, n_2} \\[8pt]
+& \int_0^L \cos\left( \frac{\pi n_1 x}{L} \right) \cos\left( \frac{\pi n_2 x}{L} \right) \, dx = 
+\begin{cases}
+L & \text{if } n_1 = n_2 = 0 \\
+\frac{L}{2} & \text{if } n_1 = n_2 \neq 0 \\
+0 & \text{if } n_1 \ne n_2
+\end{cases} \\[8pt]
+& \int_0^L \sin\left( \frac{\pi n_1 x}{L} \right) \cos\left( \frac{\pi n_2 x}{L} \right) \, dx = 0 \\
+& \int_0^\infty \frac{x^2}{ae^x - 1} \, dx = 2 Li_3\left( \frac{1}{a} \right)
+\end{align*}
+
+\end{cheatformula}
+
+
+\begin{cheatformula}[נפחים ב-d מימדים]
+     \begin{align*}
+    V_{\text{פירמידה}} &= \frac{a^{d}}{d!}, \qquad
+    V_{\text{כדור}} = \frac{\pi^{\,d/2}}{\Gamma\left(\tfrac{d}{2} + 1\right)} \, R^{d}, \\
+    V_{\text{אליפסואיד}} &= \frac{\pi^{\,d/2}}{\Gamma\left(\tfrac{d}{2} + 1\right)} \, \prod_{i=1}^{d} r_{i}
+\end{align*}
+* שימו לב אם צריך רק את הרביע הראשון אז לחלק ב- $2^d$
+
+\end{cheatformula}

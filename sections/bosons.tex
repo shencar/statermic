@@ -1,0 +1,59 @@
+\section{בוזונים}
+חלקיקים שלא מחויבים לחוק איסור מסוים. 
+לא ניתן להבחין בני בוזונים מאותו סוג.\\
+הספין הכולל הוא בשלמים $1,2,3,\cdots$\\
+דוגמאות - אטומי ומולקולות מימן $H^1_1$ , אטומי הליום $H^4_2$
+\\
+\begin{cheatformula}[פונקציית החלוקה הגרנד-קנונית]
+$$\mathcal{Z}\left(T,V,\mu\right) = \prod_\alpha \mathcal{Z}_\alpha \left(T,V,\mu\right) = \prod_\alpha \frac{1}{1-e^{-\beta \left( \varepsilon_\alpha - \mu \right)}}$$
+\end{cheatformula}
+
+\begin{cheatformula}[התפלגות בוז-אינשטיין]
+מספר הבוזונים הממוצע מאותו סוג תחת פוטנציאל במצב $\alpha$ 
+    $$\left<N_\alpha \right>^{BE} = \frac{1}{e^{\beta \left(\epsilon_\alpha -\mu \right) }-1}$$
+בטמפרטורה
+\end{cheatformula}
+\begin{cheatformula}[עיבוי בוז-איינשטיין]
+כמעט כל החלקיקים יהיו יהיו במצב בו האנרגיה היא הנמוכה ביותר לכל טמפרטורה המקיימת
+$$k_B T < \Delta E$$
+(הפרש האנרגיות בין המצב המעורר הראשון למצב היסוד)
+
+\end{cheatformula}
+
+\begin{cheatformula}[מספר חלקיקים במערכת בוזונים]
+$$N \left( T,V,\mu \right)= \sum_\alpha \left< N_\alpha \right>^{BE}$$
+בדרך כלל ההפרש בין הרמה המעוררת הראשונה לרמת היסוד לא יהיה זניח אז נפריד את המחובר הראשון ואת שאר הסכום נהפוך לאינטגרל
+\begin{align*}
+N &= \frac{1}{e^{\beta \left( \varepsilon_0 - \mu \right)} -1} + \int_{\alpha_{\text{excited}}} \frac{1}{e^{\beta \left( \varepsilon_\alpha - \mu \right)}-1} \\
+&\approx \frac{1}{e^{\beta \left( \varepsilon_0 - \mu \right)} -1} + \int_{\alpha_{\text{all}}} \frac{1}{e^{\beta \left( \varepsilon_\alpha - \mu \right)}-1}
+\end{align*}
+את ההפרדה הזאת עושים רק כשהטמפרטורה נמוכה מטמפרטורת העיבוי. לכן נצטרך לפעמים לחלק את התשובה למקרה שבו יש עיבוי ולמקרה שאין.
+\\
+מעבר מאינטגרל של כמה משתנים: מוצאים את צפיפות המצבים ומחשבים אינטגרל חד-מימדי
+$$\int_{n_x=1}^\infty\int_{n_y=1}^\infty\int_{n_z=1}^\infty d^3n \approx \int_{\varepsilon_0}^\infty g\left(\varepsilon\right)d\varepsilon$$ 
+\end{cheatformula}
+\begin{cheatformula}[טמפרטורת עיבוי]
+מחשבים את האינטגרל:
+$$N = \int_{\alpha_{\text{all}}} \frac{d \alpha}{e^{\beta \left( \varepsilon_\alpha - \mu \right)}-1}$$
+מחלצים את $T$ וזאת הטמפרטורה הקריטית. ככל שהטמפרטורה של המערכת נמוכה יותר מהטמפרטורה הקריטית, הרבה יותר 
+חלקיקים ירדו לרמת היסוד
+\\
+\textbf{תנאי} להתרחשות עיבוי בוז-אינשטיין:
+$$\int_{\alpha_{\text{all}}} \frac{d\alpha}{e^{\beta \left( \varepsilon_\alpha - \mu \right)}-1} < \infty$$
+כאשר $T<T_C$ הפוטנציאל הכימי מאוד קרוב לרמת היסוד אז אפשר להציב $\varepsilon_0 = \mu$ באינטגרל.
+\end{cheatformula}
+
+\begin{cheatformula}[פתרון בעיית בוזונים]
+\begin{enumerate}
+    \item נחשב גדלים בטמפרטורות בהן אין עיבוי. נפתור את המשוואה
+    $$N \left( T,V,\mu \right)= \sum_\alpha \left< N_\alpha \right>^{BE}$$
+    ונחלץ את $\mu$
+    \item נחשב את החסם על מספר החלקיקים ברמות המעוררות 
+    $$\int_\alpha \frac{d\alpha}{e^{\beta \left(\varepsilon_\alpha - \varepsilon_0 \right) } - 1}$$ 
+    נבדוק אם מתבדר
+    \item נשווה את החסם ל-$N$ ונחלץ את $T_C\left(V,N\right)$
+    \item מספר החלקיקים ברמות המעוררות שווה לחסם
+    $$\left< N_{ground} \right> = N - \left< N_{excited} \right>$$
+    \item נחשב גדלים כשיש עיבוי ונציב $\mu = \varepsilon_0$
+\end{enumerate}
+\end{cheatformula}

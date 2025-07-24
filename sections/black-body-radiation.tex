@@ -1,0 +1,59 @@
+\section{קרינת גוף שחור}
+\begin{cheatformula}[ביטוי כללי לאנרגיה אלקטורמגנטית]
+\begin{align*}
+    E = \frac{1}{2} \int_V \left( \epsilon_0 \abs{\vec{E}(x, y, z, t)}^2 + \frac{1}{\mu_0} \abs{\vec{B}(x, y, z, t)}^2 \right) \, dV
+\end{align*}
+\end{cheatformula}
+\begin{cheatformula}[משוואות מקסוול]
+    \begin{align*}
+    & \div \vec{E} = \frac{\rho}{\epsilon_0} 
+    && \div \vec{B} = 0 \\
+    &\ \curl \vec{E} = -\frac{\partial \vec{B}}{\partial t}
+    && \curl \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}
+\end{align*}
+אופן תנודה של גל בתדירות $\omega$:
+\[
+\omega = c \abs{\vec{k}} = \pi c \sqrt{ \left( \frac{n_x}{L_x} \right)^2 + \left( \frac{n_y}{L_y} \right)^2 + \left( \frac{n_z}{L_z} \right)^2 }
+\]
+
+\end{cheatformula}
+
+\begin{cheatformula}[צפיפות אנרגיה ספקטרלית]
+\begin{align*}
+    u(T,\omega) = \frac{1}{V} \left( \frac{\partial E}{\partial \omega} \right)_{T,V}
+\end{align*}    
+\end{cheatformula}
+
+\begin{cheatformula}[חוק ריילי-ג'ינס]
+מתאים רק לתדירויות מתחת לאולטרה סגול
+\begin{align*}
+    u(T,\omega) = \frac{k_B T}{\pi^2 c^3} \omega^2
+\end{align*}
+
+\end{cheatformula}
+
+\begin{cheatformula}[חוק פלאנק]
+    \begin{align*}
+    u(T,\omega) = \frac{\hbar}{\pi^2 c^3} \frac{\omega ^3}{e^{\frac{\hbar \omega}{k_B T}}-1}
+\end{align*} 
+
+כל אופן תנודה יכול לקבל אנרגיות המקיימות את המשוואה:
+
+\begin{align*}
+E_{n_x,n_y,n_z,p} &= s_{n_x,n_y,n_z,p} \cdot \hbar \omega(n_x,n_y,n_z) \\
+s_{n_x,n_y,n_z,p} &\in \mathbb{N} \qquad p \in \{1,2\}
+\end{align*}
+
+\end{cheatformula}
+\begin{cheatformula}[חוק סטפן-בולצמן]
+סך כל כמות האנרגיה שפולט גוף שחור ע"י קרינה ליחידת זמן וליחידת שטח
+\begin{align*}
+    I = \frac{1}{A} \frac{E_{body}}{dt} = -\sigma T^4 \qquad \sigma = \frac{\pi ^2 k_B ^2}{60\hbar ^3 c^2} \approx 5.67 \cdot 10^{-8}
+\end{align*}
+\end{cheatformula}
+
+\begin{cheatformula}[חוק ההסחה של וין]
+    אורך הגל $\lambda_{\max}$ שבו גוף שחור יפלוט את מירב הקרינה
+    $$\lambda_{\max} T = \alpha \qquad \alpha = 2.90 \cdot 10^-3 \, m$$
+    ניתן למצוא את $\alpha$ ע"י מציאת המקסימום של חוק פלאנק 
+\end{cheatformula}

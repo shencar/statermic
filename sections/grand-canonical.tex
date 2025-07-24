@@ -1,0 +1,41 @@
+\section{הצבר הגרנד-קנוני}
+הצבר שמתאר מערכות \textbf{פתוחות} בשיווי-משקל תרמודינמי.
+נפח תחום, אבל אנרגיה ומספר חלקיקים שלא נשמרים.
+רק V גודל שמור, $T,\mu$ קבועים
+
+\begin{cheatformula}[פונקציית החלוקה הגרנד-קנונית]
+\[
+\mathcal{Z} \left( T, V,\mu \right) = \sum_{\bar{\mu}} e^{-\beta \left( E(\bar{\mu}) - \mu N(\bar{\mu}) \right) } 
+\]
+\end{cheatformula}
+
+\begin{cheatformula}[הפוטנציאל הגרנד-קנוני]
+\[
+\Omega \left( T,V,\mu \right) = -k_B T \ln \mathcal{Z} \left( T,V,\mu \right)
+\]
+\end{cheatformula}
+
+קשרים חשובים:
+    \begin{align*}
+\langle E \left( T,V,\mu \right) \rangle &= - \left( \frac{\partial \ln \mathcal{Z}}{\partial \beta} \right)_{V,e^{\beta \mu }} &&\: \left( \Delta E \right) ^2 = - \left( \frac{\partial \left< E \right> }{\partial \beta}  \right)_{V,e^{\beta \mu }} \\[1em]
+\langle N \left( T,V,\mu \right) \rangle &= \frac{1}{\beta} \left( \frac{\partial \ln \mathcal{Z}}{\partial \mu} \right)_{V,T } &&\: \left( \Delta N \right) ^2 = \frac{1}{\beta} \left( \frac{\partial \left< N \right> }{\partial \mu}  \right)_{V,T}
+\end{align*}
+
+\begin{cheatformula}[חישוב גדלים תרמודינמיים בצבר הגרנד-קנוני]
+הצבר הגרנד-קנוני רלוונטי בעיקר בבעיות שיש אתרים (מצבים, מדפים, רמות אנרגיה)
+
+\begin{enumerate}
+    \item נחשב את האנרגיה ומספר החלקיקים כתלות במצבי המערכת
+    \item נחשב את פונקציית החלוקה הגרנד-קנונית $\mathcal{Z}\left( T,V,\mu \right)$
+    \item נחשב את הפוטנציאל הגרנד-קנוני $\Omega\left( T,V,\mu \right)$
+    \item (לרוב) נחשב את $\left< N \left( T,V,\mu \right) \right>$ וננסה לחלץ את $\mu \left( T,V, \left <N \right> \right)$
+    \item נגזור מפונקציית החלוקה כל גודל תרמודינמי
+\end{enumerate}
+
+\end{cheatformula}
+
+\begin{cheatformula}[התיקון של גיבס]
+    בטמפרטורה גבוהה לחלקיקים יש מספר מאוד גדול של מיקרו-מצבים. אז אנחנו רוצים להזניח את הסיכוי ששני חלקיקים יהיו באותו מיקרו מצב
+    $$Z\left(T,N\right) \approx \frac{1}{N!} \prod_{i=1}^{N}Z_i\left(T \right)= \frac{1}{N!} Z_1\left(\left(T \right)\right)^N$$
+לא נשתמש בקירוב במערכות עם טמפרטורות נמוכות או צפיפויות גבוהות.
+\end{cheatformula}

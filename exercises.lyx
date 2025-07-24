@@ -1,0 +1,1304 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\newcommand{\dbar}{\mathrm{d}\hspace*{-0.1405em}\bar{}\hspace*{0.1em}}
+\usepackage{siunitx}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children no
+\language hebrew
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "Nachlieli CLM"
+\font_sans "default" "Nachlieli CLM"
+\font_typewriter "default" "Nachlieli CLM"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+preview true
+filename "C:/Users/v-bshencar/Documents/lecture-notes/MacrosStandard.lyx"
+literal "true"
+
+\end_inset
+
+
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+סטתרמית | תרגיל בית
+\family roman
+\shape up
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+u_{1} & =0\\
+u_{2} & =-\varepsilon_{0}\\
+u_{3} & =-2\varepsilon_{0}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+למצב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יש רק מיקרו-מצב אחד,
+ כל סידור אחר מכיל זוג כדורים צמודים
+\end_layout
+
+\begin_layout Standard
+למצב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מיקרו-מצבים:
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula 
+\[
+\begin{array}{ccccc}
+* & * &  & *\\*
+ & * &  &  & *\\
+ & \ast & * &  & *\\*
+ &  & * & *\\*
+ &  &  & * & *\\
+ & * &  & * & *
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+למצב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מיקרו-מצבים (לבחור את המיקום של הכדור השמאלי,
+ שאר הכדורים נבחרים ביחידות).
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\sigma_{1} & =k_{B}\ln1=0\\
+\sigma_{2} & =k_{B}\ln6\\
+\sigma_{3} & =k_{B}\ln3
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר המערכת מוצמדת לאמבט חום,
+ הטמפרטורה שלה קבועה אז בשיווי משקל תרמודינמי האנרגיה החופשית של הלמהולץ תהיה מינימלית.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $T=\frac{\varepsilon_{0}}{k_{B}}$
+\end_inset
+
+ נרשום את האנרגיה החופשית של הלמהולץ עבור כל מצב:
+\begin_inset Formula 
+\[
+F=E-TS=\begin{cases}
+0-\frac{\varepsilon_{0}}{k_{B}}\cdot0=0 & \Omega_{1}\\
+-\varepsilon_{0}-\frac{\varepsilon_{0}}{k_{B}}\cdot k_{B}\ln6=-\varepsilon_{0}\left(1+\ln6\right)\approxeq-2.8\varepsilon_{0} & \Omega_{2}\\
+-2\varepsilon_{0}-\frac{\varepsilon_{0}}{k_{B}}\cdot k_{B}\ln3=-\varepsilon_{0}\left(2+\ln3\right)\approxeq-3.1\varepsilon_{0} & \Omega_{3}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המינימום מתקבל במצב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $T=\frac{2\varepsilon_{0}}{k_{B}}$
+\end_inset
+
+:
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F=E-TS=\begin{cases}
+0-\frac{\varepsilon_{0}}{k_{B}}\cdot0=0 & \Omega_{1}\\
+-\varepsilon_{0}-\frac{2\varepsilon_{0}}{k_{B}}\cdot k_{B}\ln6=-\varepsilon_{0}\left(1+2\ln6\right)\approxeq-4.58\varepsilon_{0} & \Omega_{2}\\
+-2\varepsilon_{0}-\frac{2\varepsilon_{0}}{k_{B}}\cdot k_{B}\ln3=-\varepsilon_{0}\left(2+2\ln3\right)\approxeq-4.2\varepsilon_{0} & \Omega_{3}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המינימום הפעם מתקבל עבור מצב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבדוק מתי האנרגיה החופשית של הלמהולץ משתווה בין מצב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+למצב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\begin_inset Formula 
+\begin{align*}
+-\varepsilon_{0}-T_{C}k_{B}\ln6 & =-2\varepsilon_{0}-T_{C}k_{B}\ln3\\
+T_{C} & =\frac{\varepsilon_{0}}{k_{B}\ln2}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בטמפרטורה זו המצב הסביר יתחלף.
+\end_layout
+
+\begin_layout Section
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{4}{3}\pi R^{3} & =5.065\cdot10^{-29}\left[m^{3}\right]\\
+R & =2.295\mathring{A}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגזור את משוואת ואן דר ואלס:
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial}{\partial T}\left[\left(P+a\frac{N^{2}}{V^{2}}\right)\left(V-bN\right)\right]_{V,N} & =\frac{\partial}{\partial T}\left[Nk_{B}T\right]_{V,N}\\
+\left(V-bN\right)\frac{\partial P}{\partial T} & =Nk_{B}\\
+\left(\frac{\partial P}{\partial T}\right)_{V,N} & =\frac{Nk_{B}}{V-bN}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את האנטרופיה לפי קשר מקסוול:
+\begin_inset Formula 
+\begin{align*}
+\left(\frac{\partial P}{\partial T}\right)_{V,N} & =\left(\frac{\partial S}{\partial V}\right)_{T,N}\\
+S & =\int\frac{Nk_{B}}{V-bN}dV=Nk_{B}\ln\frac{V-bN}{Nk_{B}}+f_{1}\left(T,N\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\left(P+a\frac{N^{2}}{V^{2}}\right)\left(V-bN\right) & =Nk_{B}T\\
+P & =\frac{Nk_{B}T}{V-bN}-a\frac{N^{2}}{V^{2}}\\
+\frac{Nk_{B}T}{V-bN}-a\frac{N^{2}}{V^{2}} & =-\left(\frac{\partial F}{\partial V}\right)_{T,N}\\
+F & =\int\left[-\frac{Nk_{B}T}{V-bN}+a\frac{N^{2}}{V^{2}}\right]dV\\
+ & =-Nk_{B}T\ln\left(V-Nb\right)-a\frac{N^{2}}{V}+f_{2}\left(T,N\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+S & =-\left(\frac{\partial F}{\partial T}\right)_{V,N}=\left(\frac{\partial}{\partial T}\left[-Nk_{B}T\ln\left(V-Nb\right)-a\frac{N^{2}}{V}+f_{2}\left(T,N\right)\right]\right)_{V,N}\\
+ & =-Nk_{B}\ln\left(V-Nb\right)+\left(\frac{\partial f_{2}\left(T,N\right)}{\partial T}\right)_{N}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב בתוצאה של סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2.2
+\numeric off
+:
+\begin_inset Formula 
+\begin{align*}
+-Nk_{B}\ln\left(V-Nb\right)+\left(\frac{\partial f_{2}\left(T,N\right)}{\partial T}\right)_{N} & =-Nk_{B}\ln\frac{V-bN}{Nk_{B}}-f_{1}\left(T,N\right)\\
+f_{1}\left(T,N\right) & =-\left(\frac{\partial f_{2}\left(T,N\right)}{\partial T}\right)_{N}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+E & \left(T,V,N\right)=F+TS\\
+ & =-Nk_{B}T\ln\left(V-Nb\right)-a\frac{N^{2}}{V}+f_{2}\left(T,N\right)+T\left[Nk_{B}\ln\left(V-Nb\right)-\left(\frac{\partial f_{2}\left(T,N\right)}{\partial T}\right)_{N}\right]\\
+ & =-a\frac{N^{2}}{V}+f_{2}\left(T,N\right)-T\left(\frac{\partial f_{2}\left(T,N\right)}{\partial T}\right)_{N}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F=-Nk_{B}T\ln\left(V-Nb\right)-a\frac{N^{2}}{V}+f_{2}\left(T,N\right)\underset{a,b\to0}{\longrightarrow}-Nk_{B}T\ln V+f_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז נדרוש שזה יהיה שווה לתוצאה המוכרת של גז אידאלי:
+\begin_inset Formula 
+\begin{align*}
+-Nk_{B}T\ln V+f_{2} & =-Nk_{B}T\ln\left(c\frac{VT^{\frac{3}{2}}}{N}\right)\\
+f_{2} & =Nk_{B}T\left[\ln V-\ln\left(c\frac{VT^{\frac{3}{2}}}{N}\right)\right]\\
+ & =Nk_{B}T\ln\frac{N}{cT^{\frac{3}{2}}}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+E & =-a\frac{N^{2}}{V}+Nk_{B}T\ln\frac{N}{cT^{\frac{3}{2}}}-T\cdot\left(Nk_{B}\left(\ln\left(\frac{N}{cT^{\frac{3}{2}}}\right)-\frac{3}{2}\right)\right)\\
+ & =-a\frac{N^{2}}{V}+\frac{3}{2}TNk_{B}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+במערכת זו נרצה לעבוד עם האנרגיה החופשית של גיבס היות שיש לה טמפרטורה ולחץ קבועים.
+\begin_inset Formula 
+\[
+G\left(T,P,N\right)=E-TS+PV
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את הדיפרנציאל:
+\begin_inset Formula 
+\begin{align*}
+dG & =dE-SdT-TdS+VdP+PdV\\
+ & =dE-TdS+PdV
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נרצה למצוא את הפוטנציאלים הכימיים בשיווי משקל,
+ שזה קורה כאשר האנרגיה החופשית מגיעה למינימום עם שינוי מספר החלקיקים.
+\end_layout
+
+\begin_layout Standard
+במערכת מספר החלקיקים הכולל קבוע 
+\begin_inset Formula $N$
+\end_inset
+
+ אבל החלקיקים נעים בין צידי המחיצה ולכן:
+\begin_inset Formula 
+\begin{align*}
+N & =N_{1}+N_{2}\\
+\Rightarrow0 & =dN_{1}+dN_{2}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז שיווי משקל יתקבל כאשר:
+\begin_inset Formula 
+\[
+\left(\frac{\partial G}{\partial N_{1}}\right)_{N,V,P}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+ ראינו שהאנרגיה החופשית של גיבס היא אדיטיבית ולכן:
+\begin_inset Formula 
+\[
+G=G_{1}+G_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז נגזור לפי 
+\begin_inset Formula $N_{1}$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align*}
+0 & =\frac{\partial G}{\partial N_{1}}=\frac{\partial E_{1}}{\partial N_{1}}+\frac{\partial E_{2}}{\partial N_{1}}-T\left(\frac{\partial S_{1}}{\partial N_{1}}+\frac{\partial S_{2}}{\partial N_{1}}\right)+P\left(\frac{\partial V_{1}}{\partial N_{1}}+\frac{\partial V_{2}}{\partial N_{1}}\right)\\
+ & =\frac{\partial E_{1}}{\partial N_{1}}-\frac{\partial E_{2}}{\partial N_{2}}-T\left(\frac{\partial S_{1}}{\partial N_{1}}-\frac{\partial S_{2}}{\partial N_{2}}\right)+P\left(\frac{\partial V_{1}}{\partial N_{1}}-\frac{\partial V_{2}}{\partial N_{2}}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אציין שכל הגזירות מתבצעות עם 
+\begin_inset Formula $N,V,P$
+\end_inset
+
+ קבועים (לא רושם כדי לחסוך בלאגן).
+\end_layout
+
+\begin_layout Standard
+הדיפרנציאל של הקשר היסודי:
+\begin_inset Formula 
+\begin{align*}
+dE & =TdS-PdV+\mu dN\\
+\Rightarrow\frac{\partial E}{\partial N} & =T\frac{\partial S}{\partial N}-P\frac{\partial V}{\partial N}+\mu\\
+\Rightarrow\mu & =\frac{\partial E}{\partial N}-T\frac{\partial S}{\partial N}+P\frac{\partial V}{\partial N}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אז נחבר את שתי המשוואות ונקבל לבסוף:
+\begin_inset Formula 
+\begin{align*}
+0 & =\mu_{1}-\mu_{2}\\
+\mu_{1} & =\mu_{2}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אנחנו מחפשים למצוא יחסים של נגזרות שתלויות ב-
+\begin_inset Formula $N,T,P$
+\end_inset
+
+ אז נבחר באנרגיה החופשית של גיבס:
+\begin_inset Formula 
+\begin{align*}
+G & =E-TS+PV
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+dG & =dE-SdT-TdS+VdP+PdV
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשתמש שוב בדיפרנציאל לאנרגיה:
+\begin_inset Formula 
+\begin{align*}
+dG & =TdS-PdV+\mu dN-SdT-TdS+VdP+PdV\\
+ & =\mu dN-SdT+VdP\\
+\Rightarrow\left(\frac{\partial G}{\partial T}\right)_{N,P} & =-S\\
+\Rightarrow\left(\frac{\partial}{\partial P}\left(\frac{\partial G}{\partial T}\right)_{N,P}\right)_{T,N} & =-\left(\frac{\partial S}{\partial P}\right)_{T,N}\\
+\Rightarrow & -\left(\frac{\partial}{\partial T}\left(\frac{\partial G}{\partial P}\right)_{T,N}\right)_{N,P}=\left(\frac{\partial S}{\partial P}\right)_{T,N}\\
+\Rightarrow & -\left(\frac{\partial V}{\partial T}\right)_{N,P}=\left(\frac{\partial S}{\partial P}\right)_{T,N}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה עבור גז אידאלי:
+\begin_inset Formula 
+\begin{align*}
+V & =\frac{Nk_{B}T}{P}\\
+\left(\frac{\partial V}{\partial T}\right)_{N,P} & =\frac{Nk_{B}}{P}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+S & =Nk_{B}\ln\left(a\frac{V\cdot E^{\frac{3}{2}}}{N^{\frac{5}{2}}}\right)\\
+ & =Nk_{B}\ln\left(a\frac{\frac{Nk_{B}T}{P}\cdot\left(\frac{3}{2}Nk_{B}T\right)^{\frac{3}{2}}}{N^{\frac{5}{2}}}\right)\\
+ & =Nk_{B}\ln\left(\left(\frac{3}{2}\right)^{\frac{3}{2}}a\cdot\frac{1}{P}\cdot\left(k_{B}T\right)^{\frac{5}{2}}\right)\\
+ & =Nk_{B}\left(\ln\left(\cdots\right)-\ln P\right)\\
+\left(\frac{\partial S}{\partial P}\right)_{T,N} & =-\frac{Nk_{B}}{P}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשתמש בפוטנציאל הגרנד קנוני
+\begin_inset Formula 
+\begin{align*}
+\Omega\left(T,V,\mu\right) & =E-TS-\mu N\\
+d\Omega & =dE-SdT-TdS-Nd\mu-\mu dN\\
+ & =TdS-PdV+\mu dN-SdT-TdS-Nd\mu-\mu dN\\
+ & =-PdV-SdT-Nd\mu\\
+\left(\frac{\partial\Omega}{\partial V}\right)_{T,\mu} & =-P\\
+\left(\frac{\partial}{\partial\mu}\left(\frac{\partial\Omega}{\partial V}\right)_{T,\mu}\right)_{T,V} & =-\left(\frac{\partial P}{\partial\mu}\right)_{T,V}\\
+\left(\frac{\partial}{\partial V}\left(\frac{\partial\Omega}{\partial\mu}\right)_{T,V}\right)_{T,\mu} & =-\left(\frac{\partial P}{\partial\mu}\right)_{T,V}\\
+-\left(\frac{\partial N}{\partial V}\right)_{T,\mu} & =-\left(\frac{\partial P}{\partial\mu}\right)_{T,V}\\
+\left(\frac{\partial N}{\partial V}\right)_{T,\mu} & =\left(\frac{\partial P}{\partial\mu}\right)_{T,V}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשתמש באנרגיה הפנימית.
+ דיפרנציאל הקשר היסודי:
+\begin_inset Formula 
+\[
+dE=TdS-PdV+\mu dN
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\left(\frac{\partial E}{\partial S}\right)_{V,N} & =T\\
+\left(\frac{\partial}{\partial V}\left(\frac{\partial E}{\partial S}\right)_{V,N}\right)_{S,N} & =\left(\frac{\partial T}{\partial V}\right)_{S,N}\\
+\left(\frac{\partial}{\partial S}\left(\frac{\partial E}{\partial V}\right)_{S,N}\right)_{V,N} & =\left(\frac{\partial T}{\partial V}\right)_{S,N}\\
+-\left(\frac{\partial P}{\partial S}\right)_{V,N} & =\left(\frac{\partial T}{\partial V}\right)_{S,N}\\
+-\left(\frac{\partial S}{\partial P}\right)_{V,N} & =\left(\frac{\partial V}{\partial T}\right)_{S,N}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

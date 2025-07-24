@@ -1,0 +1,43 @@
+\section{פרמיונים}
+חלקיקים המחויבים לחוק פאולי. כלומר לא ניתן להבחין בין פרמיונים מאותו סוג. 
+לא יתכן ששני פרמיונים מאותו סוג יהיו באותו מצב קוונטי\\הספין הכולל הוא בחצאי שלמים $\tfrac{1}{2},1,\tfrac{3}{2}\cdots$\\
+דוגמאות - אלקטרונים, פרוטונים וניוטרונים.
+
+\begin{cheatformula}[חוק האיסור של פאולי]
+לא יתכן ששני פרמיונים מאותו סוג יהיו באותו מצב קוונטי
+\end{cheatformula}
+
+\begin{cheatformula}[התפלגות פרמי-דיראק]
+מספר הפרמיונים הממוצע מאותו סוג תחת פוטנציאל במצב $\alpha$ 
+    $$\left<N_\alpha \right>^{FD} = \frac{1}{e^{\beta \left(\epsilon_\alpha -\mu \right) }+1}$$
+בטמפרטורה $T=0$ הפונקציה הופכת למדרגה עם קפיצה של:
+$$\varepsilon_\alpha = \mu \left(T=0, V, N\right)$$
+אם $\varepsilon_\alpha < \mu \left(T=0, V,N\right)$ אז בהכרח יש חלקיק במצב $\alpha$
+\\
+אם $\varepsilon_\alpha > \mu \left(T=0, V,N\right)$ אז בהכרח אין חלקיק במצב $\alpha$
+\\
+החלקיקים ממלאים את רמות האנרגיה עד \textbf{אנרגיית פרמי}
+$$\varepsilon_F = \mu \left(T=0, V,N\right)$$
+\end{cheatformula}
+
+\begin{cheatformula}[מספר חלקיקים במערכת פרמיונים]
+$N = \sum_\alpha \left< N_\alpha \right>^{FD}$ .
+אם לא יודעים לחשב את הטור אז אפשר לעבור לאינטגרל אם ההפרש בין כל איבר בסכום קטן מספיק. דוגמה:
+$$\sum_{n=1}^\infty \frac{2}{e^{\beta \hbar \omega \left(n+\frac{1}{2} \right) - \beta \mu}+1} \approx \int_{n=1}^\infty \frac{2 dn}{e^{\beta \hbar \omega \left(n+\frac{1}{2} \right) - \beta \mu}+1}$$
+נדרוש שהמקדם של $n$ יהיה קטן מאוד
+$\beta \hbar \omega \ll 1$ .
+\end{cheatformula}
+
+\begin{cheatformula}[פיתוח זומרפלד]
+\begin{align*}
+&\int_{\varepsilon_0}^{\infty} H(\varepsilon)\,\bigl\langle N(\varepsilon)\bigr\rangle^{\mathrm{FD}}\,d\varepsilon
+\approx \int_{\varepsilon_0}^{\varepsilon_F} H(\varepsilon)\,d\varepsilon \ + \\[6pt]
+&+ \frac{\pi^2}{6}\,(k_B T)^2
+\Biggl(
+\left.\frac{dH}{d\varepsilon}\right|_{\varepsilon=\varepsilon_F}
+- H(\varepsilon_F)\,
+\left.\frac{d\ln g_{\mathrm{tot}}(\varepsilon)}{d\varepsilon}\right|_{\varepsilon=\varepsilon_F}
+\Biggr)
+\end{align*}
+
+\end{cheatformula}

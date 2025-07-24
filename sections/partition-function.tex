@@ -1,0 +1,37 @@
+\section{פונקציית החלוקה}
+\begin{cheatformula}[פונקציית החלוקה של איבר בלתי תלוי במערכת]
+$$Z = \sum_\text{מצבים} e^{-\tfrac{\varepsilon_\text{מצב}}{\tau}}$$
+\end{cheatformula}
+\begin{cheatformula}[האנרגיה החופשית של הלמהולץ]
+$$F=-k_BT\ln{Z}$$    
+\end{cheatformula}
+
+\begin{cheatformula}[האנרגיה הממוצעת של מערכת]
+\begin{align*}
+    \left< E(T,V,N) \right> = - \Bigl(\tfrac{\partial \ln{Z}}{\partial \beta}\Bigr)_{V,N} = 
+    k_B T^2 \Bigl(\tfrac{\partial \ln{Z}}{\partial T}\Bigr)_{V,N}
+\end{align*}
+
+\begin{cheatformula}[משפט החלוקה השווה]
+    כל איבר ריבועי בקואורדינטות בביטוי לאנרגיה של אופני תנודה תורם $\frac{1}{2}k_BT$ לאנרגיה של המערכת
+\end{cheatformula}
+
+\end{cheatformula}
+
+\begin{cheatformula}[חישוב גדלים תרמודינמיים בצבר הקנוני]
+    \begin{enumerate}
+        \item נכתוב את האנרגיה של המערכת כתלות במצבים
+        \item נחשב את $Z\left(T,V,N\right) = \sum_{\hat{\mu}} e^{-\beta E\left(\hat{\mu}\right)}$
+        לשים לב אם אנחנו רוצים להבחין בין חלקיקים. אם לא אז נרצה להוסיף את התיקון של גיבס.
+        \item נחשב את האנרגיה החופשית של הלמהולץ
+        \item נגזור גדלים תרמודינמיים. \\
+        לדוגמה כדי לחשב אנטרופיה נחשב את הדיפרנציאל:
+        $$ dF = dE - SdT - TdS$$
+        נציב את דיפרנציאל האנרגיה:
+        $$dF = \left( TdS -PdV + \mu dN \right) - SdT - TdS$$
+        נשים לב אילו גדלים לא משתנים ונאפס את הדיפרנציאל שלהם:
+        $$dF = -SdT + \mu \underset{0}{\underbrace{dN}}$$
+        ונקבל את הקשר:
+        $$\left< S \left(T,N\right) \right> = - \left( \frac{\partial F}{\partial T} \right)_N$$
+    \end{enumerate}
+\end{cheatformula}

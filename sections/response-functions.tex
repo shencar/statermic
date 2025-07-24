@@ -1,0 +1,62 @@
+\section{פונקציות תגובה}
+\begin{cheatformula}[קיבול חום בנפח קבוע]\\
+תגובה של טמפרטורה $T$ במערכת כאשר נכנסת כמות מסוימת של חום $Q$
+ככל שקיבול החום גדול יותר, נדרש יותר חום כדי להעלות את הטמפרטורה.
+    \begin{align*}
+        C_V\left(T,V,N\right) &= \left( \frac{\dbar Q}{dT} \right)_{V,N} = \left( \frac{\partial E}{\partial T} \right)_{V,N} = T \left( \frac{\partial S}{\partial T} \right)_{V,N} 
+    \end{align*}
+פלקטואציה באנרגיה במערכת סגורה
+\begin{align*}
+    \Delta E\left( T,V,N \right) &= \sqrt{-\left( \frac{\partial \left< E \right>}{\partial \beta }\right)_{V,N}} \\
+    &= \sqrt{k_B T^2 \left( \frac{\partial \left< E \right>}{\partial T }\right)_{V,N}} \\
+    &= \sqrt{k_B T^2 C_V\left(T,V,N\right)} 
+\end{align*}
+\end{cheatformula}
+
+\begin{cheatformula}[קיבול חום בלחץ קבוע]\\
+    \begin{align*}
+        C_P\left(T,P,N\right) &= \left( \frac{\dbar Q}{dT} \right)_{P,N} = \left( \frac{\partial E}{\partial T} \right)_{P,N} 
+        + P \left( \frac{\partial V}{\partial T} \right)_{P,N} \\
+        &= \left( \frac{\partial H}{\partial T} \right)_{P,N} = T \left( \frac{\partial S}{\partial T} \right)_{P,N} 
+    \end{align*}
+\end{cheatformula}
+
+
+\begin{cheatformula}[קומפרסביליות איזותרמית]\\
+כיצד מגיב הלחץ $P$ כאשר משנים נפח $V$ בטמפרטורה $T$ קבועה
+    \begin{align*}
+        \kappa_T\left(T,P,N\right) &= - \frac{1}{V} \left( \frac{\partial V}{\partial P} \right)_{T,N}
+    \end{align*}
+\end{cheatformula}
+
+
+\begin{cheatformula}[קומפרסביליות אדיאבטית]\\
+תהליך דחיסה במערכת מבודדת, לא נכנס חום למערכת. התהליך איטי ובלי חיכוך.
+    \begin{align*}
+        \kappa_S\left(T,P,N\right) &= - \frac{1}{V} \left( \frac{\partial V}{\partial P} \right)_{S,N}
+    \end{align*}
+\end{cheatformula}
+
+
+\begin{cheatformula}[מקדם התפשטות תרמית]\\
+כיצד מגיב הנפח $V$ כאשר משנים טמפרטורה
+    \begin{align*}
+        \alpha_P\left(T,P,N\right) &= \frac{1}{V} \left( \frac{\partial V}{\partial T} \right)_{P,N}
+    \end{align*}
+\end{cheatformula}
+
+\begin{cheatformula}[קשרים בין פונקציות תגובה]\\
+\[
+\begin{aligned}
+C_P &= C_V + \frac{TV}{\kappa_T} \alpha_P^2 \quad\quad &
+\kappa_T &= \kappa_S + \frac{TV}{C_P} \alpha_P^2 \\[1em]
+\frac{C_P}{C_V} &= \frac{\kappa_T}{\kappa_S} \quad\quad &
+\left( \frac{\partial P}{\partial T} \right)_{V,N} &= \frac{\alpha_P}{\kappa_T}
+\end{aligned}
+\]
+\begin{align*}
+V &= f(N) \cdot e^{\left( \int \alpha_P \, dT - \int \kappa_T \, dP \right)} \\
+S &= \int \frac{C_V}{T} \, dT + \int \frac{ \alpha_P }{ \kappa_T } \, dV + g(N) \\
+E &= \int C_V \, dT + \int \left( \frac{ \alpha_P }{ T \kappa_T } - P \right) \, dV + h(N)    
+\end{align*}
+\end{cheatformula}
