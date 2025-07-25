@@ -7,6 +7,13 @@
 לא יתכן ששני פרמיונים מאותו סוג יהיו באותו מצב קוונטי
 \end{cheatformula}
 
+\begin{cheatformula}[פונקציית החלוקה הגרנד קנונית של פרמיונים]
+    \begin{align*}
+    \mathcal{Z}_\alpha \left(T,V,\mu\right) &= \sum_{N_\alpha = 0}^1 e^{-\beta \left( E_\alpha N_\alpha - \mu N_\alpha \right)} = 1 + e^{-\beta \left( E_\alpha - \mu \right)} \\
+    \mathcal{Z} \left(T,V,\mu\right) &= \prod_\alpha \mathcal{Z}_\alpha \left(T,V,\mu\right) = \prod_\alpha \left( 1 + e^{-\beta \left( E_\alpha - \mu \right)} \right)
+    \end{align*}
+\end{cheatformula}
+
 \begin{cheatformula}[התפלגות פרמי-דיראק]
 מספר הפרמיונים הממוצע מאותו סוג תחת פוטנציאל במצב $\alpha$ 
     $$\left<N_\alpha \right>^{FD} = \frac{1}{e^{\beta \left(\epsilon_\alpha -\mu \right) }+1}$$
@@ -21,14 +28,54 @@ $$\varepsilon_F = \mu \left(T=0, V,N\right)$$
 \end{cheatformula}
 
 \begin{cheatformula}[מספר חלקיקים במערכת פרמיונים]
-$N = \sum_\alpha \left< N_\alpha \right>^{FD}$ .
-אם לא יודעים לחשב את הטור אז אפשר לעבור לאינטגרל אם ההפרש בין כל איבר בסכום קטן מספיק. דוגמה:
-$$\sum_{n=1}^\infty \frac{2}{e^{\beta \hbar \omega \left(n+\frac{1}{2} \right) - \beta \mu}+1} \approx \int_{n=1}^\infty \frac{2 dn}{e^{\beta \hbar \omega \left(n+\frac{1}{2} \right) - \beta \mu}+1}$$
-נדרוש שהמקדם של $n$ יהיה קטן מאוד
-$\beta \hbar \omega \ll 1$ .
+$$N = \sum_\alpha \left< N_\alpha \right>^{FD} = \sum_{n=0}^{\infty} \sum_{s=-\frac{1}{2}}^{\frac{1}{2}} \left< N_{n,s} \right>^{FD}$$
 \end{cheatformula}
 
-\begin{cheatformula}[פיתוח זומרפלד]
+\begin{cheatformula}[מעבר מסכום לאינטגרל:]
+אם לא ניתן לחשב את הסכום, ניתן לעבור לאינטגרל כאשר ההפרש בין איברים רצופים קטן מספיק. לדוגמה אם המקדם של $n$ קטן מספיק.
+\begin{align*}
+\sum_{n=1}^\infty \frac{2}{e^{\beta \hbar \omega \left(n+\frac{1}{2} \right) - \beta \mu}+1} \approx \int_{n=1}^\infty \frac{2 \, dn}{e^{\beta \hbar \omega \left(n+\frac{1}{2} \right) - \beta \mu}+1}
+\end{align*}
+התנאי: $\beta \hbar \omega \ll 1$
+\end{cheatformula}
+
+\begin{cheatformula}[צפיפות מצבים:]
+כאשר מסכמים על מספר משתנים, נגדיר $\varepsilon(n_x,n_y,n_z)$ ונחשב את צפיפות המצבים $g(\varepsilon)$.
+$$N = \sum_s \int_{\varepsilon_0}^\infty \frac{g(\varepsilon)}{e^{\beta(\varepsilon - \mu)} + 1} \, d\varepsilon$$
+\end{cheatformula}
+
+\begin{cheatformula}[חישוב אנרגיית פרמי $\varepsilon_F$:]\\
+בגבול $T \to 0$, התפלגות פרמי-דיראק הופכת לפונקציית מדרגה:
+$$\left< N_{T=0}(\varepsilon) \right>^{FD} = \begin{cases}
+    1 & \varepsilon < \varepsilon_F \\
+    0 & \varepsilon > \varepsilon_F
+\end{cases}$$
+
+לכן:
+$$N = \sum_s \int_{\varepsilon_0}^{\varepsilon_F} g(\varepsilon) \, d\varepsilon$$
+צריך לבדוק ש$\varepsilon_0 \to 0$ בגבול התרמודינמי ואז אפשר להציב 0 באינטגרל \\
+מפה ניתן לחשב את אנרגיית פרמי $\varepsilon_F$
+\end{cheatformula}
+
+\begin{cheatformula}[טמפרטורת פרמי:]
+$T_F = \frac{\varepsilon_F}{k_B}$
+\end{cheatformula}
+
+\begin{cheatformula}[אנרגיית המערכת בטמפרטורות נמוכות:]
+\begin{align*} E \left(T,V,N\right) &= \sum_n \sum_s \left< N_{n,s} \right>^{FD} \cdot \varepsilon_{n,s} \\
+    &\approx \sum_s \int_{\varepsilon_0}^{\infty} \varepsilon g\left(\varepsilon\right) \langle N(\varepsilon) \rangle^{FD} \, d\varepsilon
+\end{align*}
+את שאר החישוב מבצעים עם קירוב זומרפלד.
+\end{cheatformula}
+
+\begin{cheatformula}[גבולות]
+הגבול הקלאסי של גז פרמיונים הוא כאשר:
+$k_BT \gg \varepsilon_F$. \\
+טמפרטורת פרמי: $T_F = \frac{\varepsilon_F}{k_B}$\\
+כאשר $T \gg T_F$ המערכת מתנהגת קלאסית. (** חשוב לקחת בחשבון את התיקון של גיבס במקרה הקלאסי )
+אבל כאשר $T \ll T_F$ אז המערכת מתנהגת קוונטית.
+\end{cheatformula}
+\begin{cheatformula}[קירוב זומרפלד]
 \begin{align*}
 &\int_{\varepsilon_0}^{\infty} H(\varepsilon)\,\bigl\langle N(\varepsilon)\bigr\rangle^{\mathrm{FD}}\,d\varepsilon
 \approx \int_{\varepsilon_0}^{\varepsilon_F} H(\varepsilon)\,d\varepsilon \ + \\[6pt]
@@ -37,7 +84,8 @@ $\beta \hbar \omega \ll 1$ .
 \left.\frac{dH}{d\varepsilon}\right|_{\varepsilon=\varepsilon_F}
 - H(\varepsilon_F)\,
 \left.\frac{d\ln g_{\mathrm{tot}}(\varepsilon)}{d\varepsilon}\right|_{\varepsilon=\varepsilon_F}
-\Biggr)
+\Biggr)\\
+&g_{\mathrm{tot}}\left(\varepsilon\right) = \sum_s g_s\left(\varepsilon\right) \\
 \end{align*}
 
 \end{cheatformula}

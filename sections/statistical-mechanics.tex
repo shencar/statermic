@@ -8,15 +8,6 @@
     $T(\lambda S, \lambda V, \lambda N) = T(S, V, N)$
 \end{cheatformula}
 
-\begin{cheatformula}[חוקי התרמודינמיקה]
-    \begin{enumerate}
-        \item שתי מערכות בשיווי-משקל תרמודינמי עם מערכת שלישית, בשיווי-משקל זו עם זו
-        \item חום היא צורה של אנרגיה, אנרגיה נשמרת
-        \item האנרגיה של מערכת מורכבת מהחום שאגור בה והיכולת לבצע עבודה 
-        $\dbar Q = du - \dbar W$
-        \item במערכת סגורה האנטרופיה יכולה לגדול עם הזמן או לא להשתנות
-    \end{enumerate}
-\end{cheatformula}
 \begin{cheatformula}[ספירת מצבים בדידים למערכת עם אנרגיה קבועה]\\
 \begin{flushright}
 \begin{enumerate}
@@ -25,7 +16,7 @@
     \item נחשב את הנפח שהמשטח חוסם, נחלק ביחידת נפח של מצב אחד — ונקבל את מספר המצבים בתוך המשטח
     $\Sigma(E, N)$
     \item נגזור לפי $E$ ונכפול ב-$\varepsilon$ (יחידת אנרגיה קטנה של הבעיה):
-    $$\Omega(E,N) = \frac{d\Sigma(E, N)}{dE} \cdot \varepsilon$$    
+    $$\Omega(E,N) = \underset{g}{\underbrace{\frac{d\Sigma(E, N)}{dE}}}  \cdot \varepsilon$$    
     ונקבל את מספר המצבים המותרים בתחום 
     $\left[E - \frac{\varepsilon}{2},\, E + \frac{\varepsilon}{2} \right]$
     
@@ -33,50 +24,14 @@
 \end{flushright}
 
 \begin{cheatformula}[אנטרופיה]
-    $$S(E,\,V,\,N) \;=\; k_{B}\,\ln \Omega(E,V,N)$$
+    $S(E,\,V,\,N) \;=\; k_{B}\,\ln \Omega(E,V,N)$
 \end{cheatformula}
 \end{cheatformula}
 \begin{cheatformula}[טמפרטורה]
-     \begin{align*}
-        \frac{1}{T} \;=\; \Bigl(\tfrac{\partial S}{\partial E}\Bigr)_{V,N} &\qquad
-        \beta = \frac{1}{\tau} \;=\; \frac{1}{k_{B}\,T} \;=\; \frac{\partial\sigma}{\partial u}\, \\\\
-        T \to 0 &\iff S \to 0
-    \end{align*}
-\end{cheatformula}
-
-\begin{cheatformula}[צברים]
-\begin{itemize}
- \item מיקרוקנוני - $E,V,N$ (מערכת מבודדת עם אנרגיה, נפח, ומספר חלקיקים קבועים)
- $$
- P \left(\mu\right) = \begin{cases}
-     \frac{1}{\Omega \left( E,V,N \right)} & E\left(\mu\right)=E, V\left(\mu\right)=V,N\left(\mu\right)=N\\
-     0 & o.w.
- \end{cases}
- $$
- \item קנוני - $T,V,N$ (מערכת במגע עם אמבט חום בטמפרטורה קבועה, נפח, ומספר חלקיקים קבועים)
- $$
- P \left(\mu\right) = \begin{cases}
-     \frac{1}{Z \left( T,V,N \right)} e^{-\beta E\left(\mu\right)} &  V\left(\mu\right)=V,N\left(\mu\right)=N\\
-     0 & o.w.
- \end{cases}
- $$
- \item גרנד קנוני - $T,V,\mu$ (מערכת במגע עם אמבט חום ומאגר חלקיקים, עם טמפרטורה, נפח, ופוטנציאל כימי קבועים)
- $$
- P \left(\overline{\mu}\right) = \begin{cases}
-     \frac{1}{\mathcal{Z} \left( T,V,\mu \right)} e^{-\beta\left( E\left(\overline{\mu}\right) - \mu N\left(\overline{\mu}\right)  \right)} &  V\left(\overline{\mu}\right)=V\\
-     0 & o.w.
- \end{cases}
- $$
-\end{itemize}
-\end{cheatformula}
-
-\begin{cheatformula}[חישוב גדלים תרמודינמיים בצבר המיקרוקנוני]
-\begin{enumerate}
-        \item נכתוב את האנרגיה כתלות במיקרו-מצבי המערכת
-        \item נחשב את $\Omega \left( E,V,N \right)$ ע"י ספירת המצבים כתלות בגדלים
-        \item נחשב את הקשר היסודי $S\left( E,V,N \right) = k_B \ln \Omega \left( E,V,N \right)$
-        \item נגזור כל גודל תרמודינמי 
-\end{enumerate}
+     $
+        \frac{1}{T} \;=\; \Bigl(\tfrac{\partial S}{\partial E}\Bigr)_{V,N} \qquad
+        \beta = \frac{1}{k_{B}\,T}
+    $
 \end{cheatformula}
 
 \begin{cheatformula}[הגבול התרמודינמי]
@@ -92,4 +47,5 @@ $ \left( \frac{\partial f_x}{\partial y} \right) = \left( \frac{\partial f_y}{\p
 \[
 dE = \underbrace{TdS}_{\dbar Q} + \underbrace{(-PdV + \mu dN)}_{\dbar W}
 \]
+* בתהליך התפשטות איטי, האנטרופיה לא משתנה, אז $dS = 0$.
 \end{cheatformula}

@@ -1,5 +1,5 @@
 \section{קרינת גוף שחור}
-\begin{cheatformula}[ביטוי כללי לאנרגיה אלקטורמגנטית]
+\begin{cheatformula}[ביטוי כללי לאנרגיה אלקטרומגנטית]
 \begin{align*}
     E = \frac{1}{2} \int_V \left( \epsilon_0 \abs{\vec{E}(x, y, z, t)}^2 + \frac{1}{\mu_0} \abs{\vec{B}(x, y, z, t)}^2 \right) \, dV
 \end{align*}
@@ -11,6 +11,19 @@
     &\ \curl \vec{E} = -\frac{\partial \vec{B}}{\partial t}
     && \curl \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}
 \end{align*}
+
+\begin{cheatformula}[משוואות הגלים]
+\begin{align*}
+    \nabla^2 \vec{E} + \frac{1}{c^2} \frac{\partial^2 \vec{E}}{\partial t^2} = 0 \qquad \vec{\nabla} \cdot \vec{E} = 0 \\
+    \nabla^2 \vec{B} + \frac{1}{c^2} \frac{\partial^2 \vec{B}}{\partial t^2} = 0 \qquad \vec{\nabla} \cdot \vec{B} = 0
+\end{align*}
+פתרון עם תנאי שפה מתאפסים (יש לנו חופש לבחור תנאי שפה):
+\begin{align*}
+    \vec{E} &= \sum_{\scriptsize n_x,n_y,n_z} \vec{E}_{\vec{n}}(t) \sin\left(\frac{n_x \pi x}{L_x}\right) \sin\left(\frac{n_y \pi y}{L_y}\right) \sin\left(\frac{n_z \pi z}{L_z}\right) \\
+    \vec{B} &= \sum_{\scriptsize n_x,n_y,n_z} \vec{B}_{\vec{n}}(t) \sin\left(\frac{n_x \pi x}{L_x}\right) \sin\left(\frac{n_y \pi y}{L_y}\right) \sin\left(\frac{n_z \pi z}{L_z}\right)
+\end{align*}
+\end{cheatformula}
+
 אופן תנודה של גל בתדירות $\omega$:
 \[
 \omega = c \abs{\vec{k}} = \pi c \sqrt{ \left( \frac{n_x}{L_x} \right)^2 + \left( \frac{n_y}{L_y} \right)^2 + \left( \frac{n_z}{L_z} \right)^2 }
@@ -19,26 +32,24 @@
 \end{cheatformula}
 
 \begin{cheatformula}[צפיפות אנרגיה ספקטרלית]
-\begin{align*}
+$
     u(T,\omega) = \frac{1}{V} \left( \frac{\partial E}{\partial \omega} \right)_{T,V}
-\end{align*}    
+$
 \end{cheatformula}
 
 \begin{cheatformula}[חוק ריילי-ג'ינס]
-מתאים רק לתדירויות מתחת לאולטרה סגול
-\begin{align*}
+$
     u(T,\omega) = \frac{k_B T}{\pi^2 c^3} \omega^2
-\end{align*}
+$ \\
+(מתאים רק לתדירויות מתחת לאולטרה סגול)
 
 \end{cheatformula}
 
 \begin{cheatformula}[חוק פלאנק]
-    \begin{align*}
+$
     u(T,\omega) = \frac{\hbar}{\pi^2 c^3} \frac{\omega ^3}{e^{\frac{\hbar \omega}{k_B T}}-1}
-\end{align*} 
-
+$ \\
 כל אופן תנודה יכול לקבל אנרגיות המקיימות את המשוואה:
-
 \begin{align*}
 E_{n_x,n_y,n_z,p} &= s_{n_x,n_y,n_z,p} \cdot \hbar \omega(n_x,n_y,n_z) \\
 s_{n_x,n_y,n_z,p} &\in \mathbb{N} \qquad p \in \{1,2\}
@@ -56,4 +67,13 @@ s_{n_x,n_y,n_z,p} &\in \mathbb{N} \qquad p \in \{1,2\}
     אורך הגל $\lambda_{\max}$ שבו גוף שחור יפלוט את מירב הקרינה
     $$\lambda_{\max} T = \alpha \qquad \alpha = 2.90 \cdot 10^-3 \, m$$
     ניתן למצוא את $\alpha$ ע"י מציאת המקסימום של חוק פלאנק 
+\end{cheatformula}
+
+\begin{cheatformula}[פונקציית החלוקה של גוף שחור]
+\begin{align*}
+Z_{n_x,n_y,n_z,p} \left(T,V\right) &= \sum_{s=0}^\infty e^{-\beta \epsilon_{n_x,n_y,n_z,p}(s)} \\
+&= \frac{1}{1-e^{-\frac{\beta \pi \hbar c}{L}\sqrt{n_x^2 + n_y^2 + n_z^2}}} \\
+Z\left(T,V\right) &= \prod_{\tiny n_x,n_y,n_z,p} Z_{\tiny n_x,n_y,n_z,p} \left(T,V\right) \\
+&= \prod_{\tiny n_x,n_y,n_z} \left(\frac{1}{1-e^{-\frac{\beta \pi \hbar c}{L}\sqrt{n_x^2 + n_y^2 + n_z^2}}}\right)^2
+\end{align*}
 \end{cheatformula}

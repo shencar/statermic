@@ -7,9 +7,7 @@
     \end{align*}
 פלקטואציה באנרגיה במערכת סגורה
 \begin{align*}
-    \Delta E\left( T,V,N \right) &= \sqrt{-\left( \frac{\partial \left< E \right>}{\partial \beta }\right)_{V,N}} \\
-    &= \sqrt{k_B T^2 \left( \frac{\partial \left< E \right>}{\partial T }\right)_{V,N}} \\
-    &= \sqrt{k_B T^2 C_V\left(T,V,N\right)} 
+    \Delta E\left( T,V,N \right) &= \sqrt{-\left( \frac{\partial \left< E \right>}{\partial \beta }\right)_{V,N}} = \sqrt{k_B T^2 C_V\left(T,V,N\right)}
 \end{align*}
 \end{cheatformula}
 
@@ -54,9 +52,13 @@ C_P &= C_V + \frac{TV}{\kappa_T} \alpha_P^2 \quad\quad &
 \left( \frac{\partial P}{\partial T} \right)_{V,N} &= \frac{\alpha_P}{\kappa_T}
 \end{aligned}
 \]
+
 \begin{align*}
-V &= f(N) \cdot e^{\left( \int \alpha_P \, dT - \int \kappa_T \, dP \right)} \\
-S &= \int \frac{C_V}{T} \, dT + \int \frac{ \alpha_P }{ \kappa_T } \, dV + g(N) \\
-E &= \int C_V \, dT + \int \left( \frac{ \alpha_P }{ T \kappa_T } - P \right) \, dV + h(N)    
+& V\left(T,P,N\right) = f(N) \cdot \exp\left( \int_{T_0,P_0}^{T,P_0} \alpha_P\left(T,P,N\right) \, dT \right. \\
+&\quad\quad\quad\quad\quad\quad\quad\left. - \int_{T,P_0}^{T,P} \kappa_T\left(T,P,N\right) \, dP \right) \\[0.5em]
+& S\left(T,V,N\right) = \int_{T_0,V_0}^{T,V_0} \frac{C_V\left(T,V,N\right)}{T} \, dT \\
+&\quad + \int_{T,V_0}^{T,V} \frac{ \alpha_P\left(T,V,N\right) }{ \kappa_T\left(T,V,N\right) } \, dV + g(N) \\[0.5em]
+& E\left(T,V,N\right) = \int_{T_0,V_0}^{T,V_0} C_V\left(T,V,N\right) \, dT \\
+&\quad + \int_{T,V_0}^{T,V} \left( T \frac{ \alpha_P \left(T,V,N\right) }{ \kappa_T\left(T,V,N\right) } - P\left(T,V,N\right) \right) \, dV + h(N)
 \end{align*}
 \end{cheatformula}

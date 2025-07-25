@@ -13,9 +13,9 @@
 
 \begin{cheatformula}[טורי טיילור]
 \begin{align*}
-e^x &= \sum_{n=0}^{\infty} \frac{x^n}{n!} \\[6pt]
-\sin x &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} \\[6pt]
-\cos x &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} \\[6pt]
+e^x &= \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots \\[6pt]
+\sin x &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots \\[6pt]
+\cos x &= \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots \\[6pt]
 \ln(1 + x) &= \sum_{n=1}^{\infty} (-1)^{n-1} \frac{x^n}{n}
 = x - \frac{x^2}{2} + \frac{x^3}{3} + \cdots
 \quad  |x| < 1 \\[6pt]
@@ -65,9 +65,24 @@ e^x &= \sum_{n=0}^{\infty} \frac{x^n}{n!} \\[6pt]
 \end{table}
 \end{cheatformula}
 
+\begin{cheatformula}[נפחים ב-d מימדים]
+     \begin{align*}
+    V_{\text{פירמידה}} &= \frac{a^{d}}{d!}, \qquad
+    V_{\text{כדור}} = \frac{\pi^{\,d/2}}{\Gamma\left(\tfrac{d}{2} + 1\right)} \, R^{d}, \\
+    V_{\text{אליפסואיד}} &= \frac{\pi^{\,d/2}}{\Gamma\left(\tfrac{d}{2} + 1\right)} \, \prod_{i=1}^{d} r_{i}
+\end{align*}
+\begin{align*}
+d = 2: \quad V_{\text{משולש}} &= \frac{a^2}{2}, \quad V_{\text{עיגול}} = \pi R^2, \quad V_{\text{אליפסה}} = \pi ab \\
+d = 3: \quad V_{\text{טטרהדרון}} &= \frac{a^3}{6}, \quad V_{\text{כדור}} = \frac{4\pi R^3}{3}, \quad V_{\text{אליפסואיד}} = \frac{4\pi abc}{3}
+\end{align*}
+* שימו לב אם צריך רק את הרביע הראשון אז לחלק ב- $2^d$
+\end{cheatformula}
+
+
 \begin{cheatformula}[אינטרגרלים]
 \begin{align*}
 & \int x^n e^{ax} \, dx = \frac{x^n e^{ax}}{a} - \frac{n}{a} \int x^{n-1} e^{ax} \, dx \quad \text{(by parts)} \\[8pt]
+& \int_0^\infty x e^{-x} \, dx = 1 \\[8pt]
 & \int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi} \\[8pt]
 & \int_{-\infty}^{\infty} e^{-a x^2} \, dx = \sqrt{\frac{\pi}{a}}, \quad a > 0 \\[8pt]
 & \int_{0}^{\infty} x^{n} e^{-a x} \, dx = \frac{\Gamma(n+1)}{a^{n+1}}, \quad a > 0,\; n > -1 \\[8pt]
@@ -91,13 +106,29 @@ L & \text{if } n_1 = n_2 = 0 \\
 
 \end{cheatformula}
 
-
-\begin{cheatformula}[נפחים ב-d מימדים]
-     \begin{align*}
-    V_{\text{פירמידה}} &= \frac{a^{d}}{d!}, \qquad
-    V_{\text{כדור}} = \frac{\pi^{\,d/2}}{\Gamma\left(\tfrac{d}{2} + 1\right)} \, R^{d}, \\
-    V_{\text{אליפסואיד}} &= \frac{\pi^{\,d/2}}{\Gamma\left(\tfrac{d}{2} + 1\right)} \, \prod_{i=1}^{d} r_{i}
-\end{align*}
-* שימו לב אם צריך רק את הרביע הראשון אז לחלק ב- $2^d$
-
+\begin{cheatformula}[הסתברות]
+\begin{table}[H]
+  \centering
+  \begin{RTL}
+  \begin{tabular}{@{}r@{\hspace{1em}}l@{}}
+    תוחלת: & $\displaystyle \langle X \rangle = \sum_{i} x_i P(x_i) \quad \text{או} \quad \int_{x_i}^{x_f} x f(x) \, dx$ \\[6pt]
+      מומנט שני: & $\displaystyle \langle X^2 \rangle = \sum_{i} x_i^2 P(x_i) \quad \text{או} \quad \int_{x_i}^{x_f} x^2 f(x) \, dx$ \\[6pt]
+      פלקטואציה: & $\displaystyle \sigma = \sqrt{\langle X^2 \rangle - \langle X \rangle^2}$ \\[6pt]
+  \end{tabular}
+  \end{RTL}
+\end{table}
 \end{cheatformula}
+
+
+% \begin{cheatformula}[זהויות טריגונומטריות]
+% \begin{alignat*}{2}
+% \sin^2 x + \cos^2 x &= 1 &\qquad 1 + \tan^2 x &= \sec^2 x \\
+% \sin(2x) &= 2\sin x \cos x &\qquad \cos(2x) &= \cos^2 x - \sin^2 x \\
+% \sin(x \pm y) &= \sin x \cos y \pm \cos x \sin y \\
+% \cos(x \pm y) &= \cos x \cos y \mp \sin x \sin y \\
+% \sin x &= \cos\left(\frac{\pi}{2} - x\right) &\qquad \cos x &= \sin\left(\frac{\pi}{2} - x\right) \\
+% \tan(x \pm y) &= \frac{\tan x \pm \tan y}{1 \mp \tan x \tan y} &\qquad \sin^2\left(\frac{x}{2}\right) &= \frac{1 - \cos x}{2} \\
+% \cos^2\left(\frac{x}{2}\right) &= \frac{1 + \cos x}{2} &\qquad \tan\left(\frac{x}{2}\right) &= \frac{1 - \cos x}{\sin x}
+% \end{alignat*}
+% \end{cheatformula}
+
