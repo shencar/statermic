@@ -1,0 +1,27 @@
+\xpg@aux {}{hebrew}
+\contentsline {section}{\numberline {1}מכניקה סטטיסטית}{1}{section.1}%
+\contentsline {section}{\numberline {2}מכניקה סטטיסטית - צברים ואנטרופיה}{1}{section.2}%
+\contentsline {section}{\numberline {3}אנסמבל מיקרוקנוני}{1}{section.3}%
+\contentsline {section}{\numberline {4}הצבר המיקרוקנוני - $E,V,N$}{1}{section.4}%
+\contentsline {section}{\numberline {5}אנרגיות חופשיות}{1}{section.5}%
+\contentsline {section}{\numberline {6}אנרגיות חופשית / פוטנציאלים תרמודינמיים}{1}{section.6}%
+\contentsline {section}{\numberline {7}גז אידיאלי}{2}{section.7}%
+\contentsline {section}{\numberline {8}גז אידאלי ואנרגיה קינטית}{2}{section.8}%
+\contentsline {section}{\numberline {9}כמויות תרמודינמיות}{2}{section.9}%
+\contentsline {section}{\numberline {10}גדלים תרמודינמניים והתמרת לז'נדר}{2}{section.10}%
+\contentsline {section}{\numberline {11}אנסמבל קנוני}{2}{section.11}%
+\contentsline {section}{\numberline {12}הצבר הקנוני}{2}{section.12}%
+\contentsline {section}{\numberline {13}פונקציות תגובה}{3}{section.13}%
+\contentsline {section}{\numberline {14}פונקציות תגובה}{3}{section.14}%
+\contentsline {section}{\numberline {15}קרינת גוף שחור}{3}{section.15}%
+\contentsline {section}{\numberline {16}קרינת גוף שחור}{3}{section.16}%
+\contentsline {section}{\numberline {17}אנסמבל גרנד קנוני}{4}{section.17}%
+\contentsline {section}{\numberline {18}הצבר הגרנד-קנוני}{4}{section.18}%
+\contentsline {section}{\numberline {19}פרמיונים}{5}{section.19}%
+\contentsline {section}{\numberline {20}פרמיונים}{5}{section.20}%
+\contentsline {section}{\numberline {21}בוזונים}{5}{section.21}%
+\contentsline {section}{\numberline {22}בוזונים}{5}{section.22}%
+\contentsline {section}{\numberline {23}תהליכים הפיכים}{6}{section.23}%
+\contentsline {section}{\numberline {24}תהליכים הפיכים}{6}{section.24}%
+\contentsline {section}{\numberline {25}מתמטיקות}{6}{section.25}%
+\contentsline {section}{\numberline {26}מתמטיקות}{6}{section.26}%
